@@ -2,18 +2,21 @@
 	"smashley": {
 		"id": 40601000,
 		"display_name": "smashley",
+		"title": "streamer",
 		"description": "I play a variety of games, and enjoy anything with a lot of action",
 		"schedule": "Mon - Fri: 6pm - 10:30pm est",
 		"schedule2": "Sat: 12pm - 6pm est",
 		"bio": "I'm a bunch of filler text about how great I am as a streamer and a person in general. I'm sure we can come up with something insightful. Maybe a little trivia like how long the person's been streaming, their goal for the stream, other sappy shit. You know how people like that kind of thing.",
 		"social_media": {
 			"twitter": "https://twitter.com/smashleytwitch",
-			"discord": "https://discord.gg/0Z09RqdxEppINnaI"
+			"discord": "https://discord.gg/0Z09RqdxEppINnaI",
+			"youtube": "https://www.youtube.com/user/ashley66444"
 		}
 	},
 	"lowco2525": {
 		"id": 52925091,
 		"display_name": "lowco2525",
+		"title": "streamer",
 		"description": "I'm Lowco a 25 year old interactive variety streamer", 
 		"schedule": "Mon - Sat: 11am - 5pm est",
 		"bio": "I'm a bunch of filler text about how great I am as a streamer and a person in general. I'm sure we can come up with something insightful. Maybe a little trivia like how long the person's been streaming, their goal for the stream, other sappy shit. You know how people like that kind of thing.",
@@ -27,6 +30,7 @@
 	"bloodyfaster": {
 		"id": 99675008,
 		"display_name": "bloodyfaster",
+		"title": "streamer",
 		"description": "I am a singer, a computer engineer and the World's Okayest Gamer",
 		"schedule": "Whenever the mood hits!",
 		"bio": "I'm a bunch of filler text about how great I am as a streamer and a person in general. I'm sure we can come up with something insightful. Maybe a little trivia like how long the person's been streaming, their goal for the stream, other sappy shit. You know how people like that kind of thing.",
@@ -38,6 +42,7 @@
 	},
 	"djtechlive": {
 		"id": 39604685,
+		"title": "streamer",
 		"display_name": "djtechlive",
 		"description": "I stream full time focusing on positivity and variety gaming",
 		"schedule": "Tues - Fri: 7:30pm est",
@@ -47,6 +52,17 @@
 			"twitter": "https://twitter.com/Djtechlive",
 			"discord": "https://discordapp.com/invite/0iRaGyTEisNJhx3b",
 			"instagram": "https://www.instagram.com/Djtechlive/"
+		}
+	},
+	"odysseygrrrl": {
+		"id": 68197749,
+		"display_name": "odysseygrrrl",
+		"title": "Community Manager",
+		"bio": "Herder of Cats, Fighter of fires, Community Manager.",
+		"email": "manager@teamcatalyst.tv",
+		"social_media": {
+			"twitter": "https://twitter.com/odysseygrrrl",
+			"email": "mailto:manager@teamcatalyst.tv"
 		}
 	}
 }
