@@ -57,13 +57,13 @@
 	"odysseygrrrl": {
 		"id": 68197749,
 		"display_name": "odysseygrrrl",
-		"role": "Community Manager",
+		"role": "community manager",
 		"bio": "Herder of Cats, Fighter of fires, Community Manager. Other turns of phrases. I don't know it's not my job to write these things. I write code not bios.",
 		"email": "manager@teamcatalyst.tv",
 		"social_media": {
 			"twitter": "https://twitter.com/odysseygrrrl",
-			"email": "mailto:manager@teamcatalyst.tv",
-			"discord": "https://discordapp.com/invite/XXEVjXu"
+			"discord": "https://discordapp.com/invite/XXEVjXu",
+			"email": "mailto:manager@teamcatalyst.tv"
 		}
 	}
 }
