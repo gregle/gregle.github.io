@@ -1,6 +1,20 @@
 {
+	"odysseygrrrl": {
+		"id": 68197749,
+		"calendar_id": -1,
+		"display_name": "odysseygrrrl",
+		"role": "community manager",
+		"bio": "Herder of Cats, Fighter of fires, Community Manager. Other turns of phrases. I don't know it's not my job to write these things. I write code not bios.",
+		"email": "manager@teamcatalyst.tv",
+		"social_media": {
+			"twitter": "https://twitter.com/odysseygrrrl",
+			"discord": "https://discordapp.com/invite/XXEVjXu",
+			"email": "mailto:manager@teamcatalyst.tv"
+		}
+	},
 	"smashley": {
 		"id": 40601000,
+		"calendar_id": 2718551,
 		"display_name": "smashley",
 		"role": "streamer",
 		"description": "I play a variety of games, and enjoy anything with a lot of action",
@@ -15,6 +29,7 @@
 	},
 	"lowco2525": {
 		"id": 52925091,
+		"calendar_id": 2718552,
 		"display_name": "lowco2525",
 		"role": "streamer",
 		"description": "I'm Lowco a 25 year old interactive variety streamer", 
@@ -29,6 +44,7 @@
 	},
 	"bloodyfaster": {
 		"id": 99675008,
+		"calendar_id": 2718550,
 		"display_name": "bloodyfaster",
 		"role": "streamer",
 		"description": "I am a singer, a computer engineer and the World's Okayest Gamer",
@@ -42,8 +58,9 @@
 	},
 	"djtechlive": {
 		"id": 39604685,
-		"role": "streamer",
+		"calendar_id": 2718539,
 		"display_name": "djtechlive",
+		"role": "streamer",
 		"description": "I stream full time focusing on positivity and variety gaming",
 		"schedule": "Tues - Fri: 7:30pm est",
 		"schedule2": "Sat - Sun: 12pm est",
@@ -52,18 +69,6 @@
 			"twitter": "https://twitter.com/Djtechlive",
 			"discord": "https://discordapp.com/invite/0iRaGyTEisNJhx3b",
 			"instagram": "https://www.instagram.com/Djtechlive/"
-		}
-	},
-	"odysseygrrrl": {
-		"id": 68197749,
-		"display_name": "odysseygrrrl",
-		"role": "community manager",
-		"bio": "Herder of Cats, Fighter of fires, Community Manager. Other turns of phrases. I don't know it's not my job to write these things. I write code not bios.",
-		"email": "manager@teamcatalyst.tv",
-		"social_media": {
-			"twitter": "https://twitter.com/odysseygrrrl",
-			"discord": "https://discordapp.com/invite/XXEVjXu",
-			"email": "mailto:manager@teamcatalyst.tv"
 		}
 	}
 }
