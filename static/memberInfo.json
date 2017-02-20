@@ -1,17 +1,4 @@
 {
-	"odysseygrrrl": {
-		"id": 68197749,
-		"calendar_id": -1,
-		"display_name": "odysseygrrrl",
-		"role": "community manager",
-		"bio": "Herder of Cats, Fighter of fires, Community Manager. Other turns of phrases. I don't know it's not my job to write these things. I write code not bios.",
-		"email": "manager@teamcatalyst.tv",
-		"social_media": {
-			"twitter": "https://twitter.com/odysseygrrrl",
-			"discord": "https://discordapp.com/invite/XXEVjXu",
-			"email": "mailto:manager@teamcatalyst.tv"
-		}
-	},
 	"smashley": {
 		"id": 40601000,
 		"calendar_id": 2718551,
@@ -69,6 +56,19 @@
 			"twitter": "https://twitter.com/Djtechlive",
 			"discord": "https://discordapp.com/invite/0iRaGyTEisNJhx3b",
 			"instagram": "https://www.instagram.com/Djtechlive/"
+		}
+	},
+	"odysseygrrrl": {
+		"id": 68197749,
+		"calendar_id": -1,
+		"display_name": "odysseygrrrl",
+		"role": "community manager",
+		"bio": "Herder of Cats, Fighter of fires, Community Manager. Other turns of phrases. I don't know it's not my job to write these things. I write code not bios.",
+		"email": "manager@teamcatalyst.tv",
+		"social_media": {
+			"twitter": "https://twitter.com/odysseygrrrl",
+			"discord": "https://discordapp.com/invite/XXEVjXu",
+			"email": "mailto:manager@teamcatalyst.tv"
 		}
 	}
 }
