@@ -1,0 +1,274 @@
+a{
+	color: #757575;
+}
+p{
+	margin: 0;
+}
+a:hover{
+	color: #757575;
+}
+
+input{
+	font-family:'Roboto', sans-serif;
+}
+
+.disabled {opacity:.2;}
+
+.gameWrap{
+	width:75%;
+	min-width: 775px;
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	padding: 50px 0 10px 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#gameArea{
+    position: relative;
+    background: url('./assets/groundTile2.png')repeat scroll 50% 50%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#intro{
+	text-align: center;
+	font-size: 1em;
+}
+
+#wrap{text-align: center}
+
+#playerInput{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+	right: 0;
+  	margin: .1em auto .1em auto;
+  	width: 40%;
+	text-align: center;
+	background-color: white;
+}
+
+#hearts{
+	position: absolute;
+	right:0;
+	margin: .1em 2em .1em .1em;
+	color: red;
+}
+
+#scoreWrap{
+	position: absolute;
+	left:0;
+	margin: .1em .1em .1em 2em;
+}
+
+#zombie{
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    left: 0;
+	right: 0;
+	margin: auto;
+	width: 4em;
+	height: 2em;
+}
+
+#resetScreenWrap
+{
+	display: none;
+	position: absolute;
+	z-index: 10002;
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #999;
+    border-width: 5px;
+	/* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+#resetScreen
+{
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    left: 0;
+	right: 0;
+	margin: auto;
+	width: 25em;
+	height: 100%;
+	background-color: #999;
+}
+
+#highScoreTable
+{
+	position: relative;
+	overflow: auto;
+	height: 65%;
+}
+
+.highscoreRow
+{
+	display: block;
+	font-family: 'Press Start 2P', 'Roboto', sans-serif;
+	font-size: .75em;
+	width:95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topScoreRow
+{
+	border-bottom: solid;
+}
+
+.dateCol
+{
+	display: inline-block;
+	width:30%;
+	text-align: left;
+}
+.scoreCol
+{
+	display: inline-block;
+	width:30%;
+}
+.nameCol
+{
+	display: inline-block;
+	width:30%;
+	text-align: right;
+}
+
+.numCol
+{
+	display: inline-block;
+	width:10%;
+}
+
+#finalScoreWrap
+{
+	display: block;
+}
+#resetBar
+{
+	margin:.5em;
+}
+
+#resetButton
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#submitPlayerName
+{
+	text-align: center;
+	background-color: white;
+	width: 30%;
+}
+
+#leftBushes
+{
+	position: absolute;
+	z-index: 10001;
+	left:0;
+	background: url('./assets/BunchoBushes.png')no-repeat scroll 50% 50%;
+	background-size: contain;
+	margin-top: -1em;
+	margin-bottom: -1em;
+	margin-left: -5em;
+	width:10em;
+}
+
+#rightBushes
+{
+	position: absolute;
+	z-index: 10001;
+	right:0;
+	background: url('./assets/BunchoBushes.png')no-repeat scroll 50% 50%;
+	background-size: contain;
+	margin-top: -1em;
+	margin-bottom: -1em;
+	margin-right: -5em;
+	width:10em;
+}
+
+#playerCharacter
+{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right:0;
+	left: 0;
+	margin: auto;
+	height: 5em;
+	width: 5em;
+	background: url('./assets/Player.png')no-repeat scroll 50% 50%;
+	background-size: contain;
+	z-index: 0;
+}
+
+#startButton{
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    left: 0;
+	right: 0;
+	margin: auto;
+	width: 4em;
+	height: 2em;
+
+	z-index: 1;
+}
+
+.zombie
+{
+	position: absolute;
+}
+
+.zomIcon
+{
+	background: url('./assets/zombie.png')no-repeat scroll 50% 50%;
+	background-size: contain;
+	height: 3em;
+	width: 3em;
+	z-index: -1;
+	margin-bottom: -.6em;
+}
+
+.zomWord
+{
+	background: white;
+	border-style: solid;
+    border-width: 2px;
+    padding: 2px;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 760px){
+	#mobileEntry{ display: inline; }
+	.gameWrap{min-width: 0px; width:100%;}
+	#resetScreen{width:100%;}
+}
+
+/*--- mobile ---*/
+@media screen and (max-width: 480px){
+	#mobileEntry{ display: inline; }
+	.gameWrap{min-width: 0px;}
+	#gameArea{width: 100%;}
+	.myChallenge{ font-size: 40px; }
+	.myChallengeWrap{ font-size: 40px; }
+	#intro{ font-size: 16px; }
+	.time{ font-size: 20px }
+	.timeWrapper{ font-size: 20px }
+	.score{ font-size: 20px; }
+	.scoreWrapper{ font-size: 20px; }
+}

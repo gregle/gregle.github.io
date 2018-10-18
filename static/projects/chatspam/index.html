@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,900' rel='stylesheet' type='text/css'>
+
+		<!-- Add jQuery library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		
+		<script type="text/javascript" src="../global.js"></script>
+
+		<!-- Add Knockout plugin-->
+		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js'></script>
+
+		<!-- Add Moment plugin-->
+		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js'></script>
+
+		<link rel="SHORTCUT ICON" HREF="../../img/favicon.png">
+		
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="./chatspam.css" />
+		
+	    <title>jcrastelli.com - How long until Shrimpfest?</title>
+		<meta name ="description=" content="Generate Annoying Chat Messages"/>
+		<meta property="og:title" content="A generator for twitch chat spam" />
+		<meta property="og:url" content="http://www.jcrastelli.com/projects/chatspam" />
+		<meta property ="og:description" content="An easy way to generate annoying chat messages"/>
+		</head>
+	<meta name="viewport" content="width=device-width">
+	<body>
+		<div id='ChatSpamViewModel'>
+			<div id='navBar'>
+				<div id='navWrapper'>
+					<div id ='navTitle'><a class="logo" id="logo" href="/"></a></div>
+					<div id="socIconArea">
+						<a class="socIcon" id="li" href="https://www.linkedin.com/pub/justin-rastelli/68/aa7/b06/" title="linkedin" target="_blank" aria-label="linkedin"></a>
+						<a class="socIcon" id="insta" href="https://www.instagram.com/gregle90/" title="instagram" target="_blank" aria-label="instagram"></a>
+						<a class="socIcon" id="tw" href="https://twitter.com/Gregle_" title="twitter" target="_blank" aria-label="twitter"></a>
+						<a class="socIcon" id="github" href="https://github.com/gregle" title="github" target="_blank" aria-label="github"></a>
+					</div>
+				</div>
+			</div>
+			<div id='Wrapper'>
+				<div id='ContentArea'>
+						<div id="inputArea">
+		        			<label for="txtName"> Name</label>
+					        <input id="Text16" type="text" class="idle" data-bind='value: Name'>
+			        		<label for="txtEmail">Icon</label>
+					        <input id="Text17" type="text" class="idle" data-bind='value: Icon'>
+			        		<label for="txtComment">Output</label>
+			        		<textarea id="Textarea6" rows="4" cols="30" class="idle" data-bind='text: Output'></textarea>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="./chatspam.js"></script>
+</html>

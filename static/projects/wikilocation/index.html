@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta charset="UTF-8">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+
+		<!-- Add jQuery library -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+		<!-- Add leaflet plugins -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+		<script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=16cKApzAIEilTDuBwbvpexKU0IAZFadf"></script>
+
+		<!-- Add MarkerCluster-->
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+		
+		<!-- Add fancybox stuff-->
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen" />
+
+		<!-- Add Knockout plugin-->
+		<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js'></script>
+
+		<link rel="SHORTCUT ICON" HREF="../../favicon.png">
+
+		<script type="text/javascript" src="../global.js"></script>
+
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="./wikilocation.css" />
+
+		<title>jcrastelli.com - Wikilocation</title>
+		<meta name ="description" content="A map of wikipedia articles based on the article's locations. An interesting way to learn about your area."/>
+
+		<meta property="og:title" 	content="Wikilocation" />
+		<meta property="og:url" 	content="http://jcrastelli.com/projects/wikilocation/" />
+		<meta property="og:description" 	content="A map of wikipedia articles based on the article's locations. An interesting way to learn about your area." />
+
+		<meta charset="UTF-8"/>
+	</head>
+	<meta name="viewport" content="width=device-width">
+	<body>
+		<div id='wikiViewModel'>
+			<div id='navBar'>
+				<div id='navWrapper'>
+					<div id ='navTitle'><a class="logo" id="logo" href="/"></a></div>
+					<div id="socIconArea">
+						<a class="socIcon" id="li" href="https://www.linkedin.com/pub/justin-rastelli/68/aa7/b06/" title="linkedin" target="_blank" aria-label="linkedin"></a>
+						<a class="socIcon" id="insta" href="https://www.instagram.com/gregle90/" title="instagram" target="_blank" aria-label="instagram"></a>
+						<a class="socIcon" id="tw" href="https://twitter.com/Gregle_" title="twitter" target="_blank" aria-label="twitter"></a>
+						<a class="socIcon" id="github" href="https://github.com/gregle" title="github" target="_blank" aria-label="github"></a>
+					</div>
+				</div>
+			</div>
+			<div id='contentWrapper'>
+				<div id='contentArea'>
+				<h1 class='sectionTitle'>wikilocation</h1>
+					<div id="mapwiki"></div>
+					<div class='subsection' id='wikilocation'>
+						<p style='border-bottom: dashed'>
+							<b>EDIT</b> - Since creating this page the source I was using, <a href="http://bendodson.com/weblog/2014/08/19/retiring-tubeupdates-and-wikilocation/">Wikilocation.org</a> has since been retired. It makes sense considering the wikipedia API provides the same functionality nowadays. So now we arrive at version 2.0 of the wikilocation page :D! It actually works even better than before. Have fun, learn something and look below for the original write up. Thanks guys,</br>
+							~ Justin</br></br>
+						</p></br>
+						<p>
+							Take a road trip with my brother and you’re bound to learn something new, whether you wanted to or not. The man's a repository for random facts. Did you know that the <a href="http://en.wikipedia.org/wiki/Hood_Canal_Bridge">Hood Canal Floating Bridge</a> is the world's longest floating bridge over salt water? Or that <a href="http://en.wikipedia.org/wiki/Whidbey_Island">Whidbey Island</a> is the second longest island in the US? It’s second to the unironically named Long Island, unless you consider a 1985 Supreme Court decision which treated Long Island as a peninsula. This, legally speaking, then pushes Whidbey Island to number one. I've always liked the flavor that he adds to learning about new areas. So when I found the Wikilocation API I couldn't help but dive right in.
+						</p><p>
+							<a href="http://wikilocation.org/">Wikilocation.org</a> provides a full REST-ful API which allows you to query for Wikipedia articles based on location. An example implementation of this can be seen in the map above. Created by <a href="http://bendodson.com/">Bend Dodsen</a>, the API provides a marvelous resource for learning about the area around you. The map defaults to Seattle Center but it'll work globally. Click around and see what you learn! 
+						</p><p>
+							I'm hoping to turn this into an Android app in the near future if only to get some more dev practice. This is an awesome resource and I see great potential in it, especially with the impending release of devices like Google Glass. Imagine having an overlay displaying the stats and history of the places around you. Like Minority Report but better because it is, you know, actually happening in the real world.
+						</p>
+					</div>
+				</div>
+				<span class="circle" data-bind="click: WikiViewModel.scrollPage.bind($data, '#contentArea')" ></span>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="./wikiViewModel.js"></script>
+</html> 

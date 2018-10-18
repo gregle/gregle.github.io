@@ -1,0 +1,45 @@
+body{
+	background: none; 
+	background-color: none;
+}
+#navBar{
+	box-shadow: 1px 1px #C7C7C7;
+}
+.timeWrap{
+	width:75%;
+	min-width: 775px;
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	padding: 50px 0 10px 0;
+	
+	text-align: center;
+}
+#confetti{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+#timer{
+	display: block;
+	font-size: 5em;
+	font-weight: bold;
+}
+#caption, #title{
+	display: block;
+	font-size: 3em;
+	font-weight: bold;
+}
+@media screen and (max-width: 760px){
+	.timeWrap{min-width: 0px;}
+	#timer{font-size:4em;}
+	#caption, #title{font-size: 2em;}
+}
+
+/*--- mobile ---*/
+@media screen and (max-width: 480px){
+	.timeWrap{min-width: 0px;}
+	#timer{font-size:2.5em;}
+	#caption, #title{font-size: 2em;}
+}

@@ -1,0 +1,21 @@
+p{
+	margin: 10px 20px 10px 20px;
+}
+#wikilocation{
+	min-height: 0px;
+}
+#mapwiki
+{
+	height: 23em;
+}
+#ctcMessage
+{
+	height: 10em;
+}
+.leaflet-container a {
+	font: 0.65em 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 800px){
+	.leaflet-container a {font-size: .75em;}
+}

@@ -1,0 +1,92 @@
+a{
+	color: #757575;
+}
+p{
+	margin: 0;
+}
+a:hover{
+	color: #757575;
+}
+.modal{
+	overflow: hidden;
+}
+.gameWrap{
+	width:75%;
+	min-width: 775px;
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	padding: 50px 0 10px 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.myChallengeWrap{
+	text-align: center;
+	font-size: 2.5em;
+}
+.myChallenge{
+	font-weight: bold;
+}
+#intro{
+	text-align: center;
+	font-size: 1em;
+}
+#userInput{
+	overflow: hidden;
+	max-width: 7em;
+	color: #757575;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+#finalScore, #finalScoreMobile
+{
+	color: #757575;
+}
+
+.endGame{
+	font-size: 1.5em;
+	color: #757575;
+}
+
+.timeWrapper {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.scoreWrapper{
+	text-align: center;
+	font-size: 1.5em;
+}
+#reset, .endGame
+{
+	text-align: center;
+}
+#mobileEntry
+{ 
+	display: none;
+	text-align: center;
+}
+#wrap{text-align: center}
+
+input{
+	text-align: center;
+	margin: .1em;
+	background-color: white;
+}
+@media screen and (max-width: 760px){
+	#mobileEntry{ display: inline; }
+	.gameWrap{min-width: 0px;}
+}
+
+/*--- mobile ---*/
+@media screen and (max-width: 480px){
+	#mobileEntry{ display: inline; }
+	.gameWrap{min-width: 0px;}
+	.myChallenge{ font-size: 40px; }
+	.myChallengeWrap{ font-size: 40px; }
+	#intro{ font-size: 16px; }
+	.time{ font-size: 20px }
+	.timeWrapper{ font-size: 20px }
+	.score{ font-size: 20px; }
+	.scoreWrapper{ font-size: 20px; }
+}
